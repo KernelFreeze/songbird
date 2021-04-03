@@ -68,8 +68,8 @@ optional = true
 version = "0.8"
 
 [dependencies.serenity]
+git = "https://github.com/serenity-rs/serenity"
 optional = true
-version = "^0.10.2"
 default-features = false
 features = ["voice", "gateway"]
 
