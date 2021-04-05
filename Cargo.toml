@@ -68,7 +68,8 @@ optional = true
 version = "0.8"
 
 [dependencies.serenity]
-git = "https://github.com/KernelFreeze/serenity.git"
+git = "https://github.com/serenity-rs/serenity.git"
+branch = "current"
 optional = true
 default-features = false
 features = ["voice", "gateway"]
